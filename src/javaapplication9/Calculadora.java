@@ -18,4 +18,7 @@ public class Calculadora {
         Calculadora calc = new Calculadora();
         System.out.println("2 + 2 = " + calc.sumar(2, 2));
     }
+        public double restar(double a, double b) {
+        return a - b;
+    }
 }
